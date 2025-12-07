@@ -133,6 +133,12 @@ A: 请检查 Webhook 是否正确设置。必须确保 Telegram 允许发送 `ca
 **Q: 为什么机器人无法在群里创建话题？**
 A: 请确保：1. 群组 ID 正确（-100开头）；2. 群组已开启 Topics 功能；3. 机器人是群管理员且拥有 "Manage Topics" 权限。
 
+**Q: 为什么人机验证能通过收不到转发的消息？**
+A: 请仔细检查所有变量名称和id是否准确，删除webhook再重新激活。
+ `(https://api.telegram.org/bot)<YOUR_TOKEN>/deleteWebhook?drop_pending_updates=true (https://api.telegram.org/bot)` 
+  
+  如果依然无法正常转发消息，尝试完成所有步骤后，最后再添加bot的管理员权限。
+ 
 ---
 
 ## 🔒 安全说明
