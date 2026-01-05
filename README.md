@@ -1,4 +1,4 @@
-# 🤖 Telegram Private Chatbot (v5.1) 
+# 🤖 Telegram Private Chatbot (v5.3) 
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/jikssha/telegram_private_chatbot)
 ![GitHub stars](https://img.shields.io/github/stars/jikssha/telegram_private_chatbot?style=social)
